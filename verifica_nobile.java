@@ -23,6 +23,7 @@ import javax.swing.SwingUtilities;
 	    private JTextField inputField;
 
 	    public verifica_nobile() {
+	    	
 	        numberList = new ArrayList<>();
 	        listModel = new DefaultListModel<>();
 
@@ -96,3 +97,8 @@ import javax.swing.SwingUtilities;
 
 
 }
+	
+	/* al codice manca la classe main per essere eseguito, inoltre sono poco sicuro del fatto che sia farina del tuo sacco.
+	 * Ad esempio sai dirmi cosa fà il metodo "Collections.binarySearch()" ?.
+	 * Inoltre manca l'import delle librerie java.awt.* e java.awt.event.* Senza di esse il codice non potrebbe girare.
+	 * */
